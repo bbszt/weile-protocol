@@ -1,0 +1,19 @@
+{
+	"suggest": {
+        "doctrine/dbal": "Allow renaming columns and dropping SQLite columns.",
+        "graham-campbell/cloudflare": "Integration with CloudFlare.",
+        "pda/pheanstalk": "Enables the beanstalk connector.",
+        "aws/aws-sdk-php": "Enables the aws connector.",
+        "iron-io/iron_mq": "Enables the iron connector."
+    },
+
+    "require": {
+      "guzzlehttp/guzzle": "5.2.0"
+    },
+
+    "autoload": {
+        "classmap": [
+            ["protocol"]
+        ]
+    }
+}
